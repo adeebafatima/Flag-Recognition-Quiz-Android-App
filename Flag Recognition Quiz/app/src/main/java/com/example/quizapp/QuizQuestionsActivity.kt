@@ -45,9 +45,9 @@ class QuizQuestionsActivity : AppCompatActivity() ,View.OnClickListener{
         defaultOptionsView()
 
        if(mCurrentPosition==mQuestionsList!!.size)
-           btn_submit.text="@string/finish"
+           btn_submit.text="FINISH"
        else
-           btn_submit.text="@string/submit"
+           btn_submit.text="SUBMIT"
 
         progress_bar.progress=mCurrentPosition
         tv_progressbar.text="$mCurrentPosition"+"/"+progress_bar.max
@@ -128,10 +128,10 @@ class QuizQuestionsActivity : AppCompatActivity() ,View.OnClickListener{
 
 
                     if(mCurrentPosition==mQuestionsList?.size){
-                        btn_submit.text = "@string/finish"
+                        btn_submit.text = "FINISH"
                     }
                     else{
-                        btn_submit.text = "@string/go_to_next_question"
+                        btn_submit.text = "GO TO NEXT QUESTION"
                     }
                     mSelectedOption=0
                 }
