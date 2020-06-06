@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Flag Recognition Quiz</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="result">Result</string>
+    <string name="image">image</string>
+    <string name="hey_curious">Hey,Curious</string>
+    <string name="finish">FINISH</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="go_to_next_question">GO TO NEXT QUESTION</string>
+
+</resources>
